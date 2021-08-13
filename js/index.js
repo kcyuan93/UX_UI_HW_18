@@ -1,3 +1,10 @@
+/*Hamburger Menu*/
+$(".icons").on("click", function(){
+  $("#dropDown").slideToggle();
+  $(".toggle").toggleClass('show hide');
+
+});
+
 /*skill1*/
 
 $("#skill1").on("mouseenter", function(){
