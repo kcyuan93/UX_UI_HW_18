@@ -34,6 +34,17 @@
     line-height: 3;
     text-align: end;
     display: none;
+}
+
+#dropDownList1 {
+    cursor: pointer;
+}
+
+#dropDownList2 {
+    cursor: pointer;
+}
+
+#dropDownList3 {
     cursor: pointer;
 }
 
