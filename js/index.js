@@ -96,3 +96,29 @@ $("#dropDownList3").on("mouseenter", function(){
 $("#dropDownList3").on("mouseleave", function(){
   $("#dropDownList3").css("color","black")
 });
+
+// About me page
+
+$("#ex0").on("mouseenter", function(){
+  $("#profession").css("display","block")
+});
+
+$("#ex0").on("mouseleave", function(){
+  $("#profession").css("display","none")
+});
+
+$("#ex1").on("mouseenter", function(){
+  $("#experience").css("display","block")
+});
+
+$("#ex1").on("mouseleave", function(){
+  $("#experience").css("display","none")
+});
+
+$("#ex2").on("mouseenter", function(){
+  $("#hobby").css("display","block")
+});
+
+$("#ex2").on("mouseleave", function(){
+  $("#hobby").css("display","none")
+});

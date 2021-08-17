@@ -228,3 +228,53 @@
         font-family: 'Ubuntu', sans-serif;
     }
 }
+
+/* About me page */
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+#aboutMe {
+    font-size: 16pt;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: normal;
+}
+
+#profession {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    right: 9%;
+    z-index: -1;
+    display: none;
+}
+
+#experience {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    right: 9%;
+    z-index: -1;
+    display: none;
+}
+
+#hobby {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    right: 9%;
+    z-index: -1;
+    display: none;
+}
+
+#aboutMe u {
+    cursor: pointer;
+    color: #ca5268;
+}
