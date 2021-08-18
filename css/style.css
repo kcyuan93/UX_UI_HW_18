@@ -48,6 +48,8 @@
     cursor: pointer;
 }
 
+
+
 .show {
     visibility: visible;
 }
@@ -277,4 +279,36 @@
 #aboutMe u {
     cursor: pointer;
     color: #ca5268;
+}
+
+.skill h2 {
+    list-style: none;
+    padding-left: 0;
+    font-size: 19pt;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.skill ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 16pt;
+    color: dimgrey;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tool h2 {
+    list-style: none;
+    padding-left: 0;
+    font-size: 19pt;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20%;
+}
+.tool ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 16pt;
+    color: dimgrey;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20%;
 }
