@@ -84,8 +84,9 @@
     margin-bottom: 0px;
 }
 .about p {
-    font-size: 38pt;
+    font-size: 28pt;
     font-weight: bolder;
+    letter-spacing: 2px;
     width: 55%;
     font-family: 'Ubuntu', sans-serif;
 }
