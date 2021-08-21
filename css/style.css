@@ -87,42 +87,42 @@
     font-size: 28pt;
     font-weight: bolder;
     letter-spacing: 2px;
-    width: 55%;
+    width: 50%;
     font-family: 'Ubuntu', sans-serif;
 }
 
 #hero1 {
-    width: 400px;
+    width: 350px;
     height: auto;
     position: absolute;
-    right: 9%;
+    right: 12%;
     z-index: -1;
     display: none;
 }
 
 #hero2 {
-    width: 400px;
+    width: 350px;
     height: auto;
     position: absolute;
-    right: 9%;
+    right: 12%;
     z-index: -1;
     display: none;
 }
 
 #hero3 {
-    width: 400px;
+    width: 350px;
     height: auto;
     position: absolute;
-    right: 9%;
+    right: 12%;
     z-index: -1;
     display: none;
 }
 
 #hero4 {
-    width: 400px;
+    width: 350px;
     height: auto;
     position: absolute;
-    right: 9%;
+    right: 12%;
     z-index: -1;
     display: none;
 }
@@ -225,7 +225,6 @@
 
 @media only screen and (max-width: 700px) {
     .about p {
-        font-size: 38pt;
         font-weight: bolder;
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
@@ -252,30 +251,33 @@
 }
 
 #profession {
-    width: 30%;
+    width: 450px;
     height: auto;
     position: absolute;
-    right: 9%;
     z-index: -1;
     display: none;
+    margin-top: 0px;
+    right: 12%;
 }
 
 #experience {
-    width: 30%;
+    width: 450px;
     height: auto;
     position: absolute;
-    right: 9%;
     z-index: -1;
     display: none;
+    margin-top: 0px;
+    right: 12%;
 }
 
 #hobby {
-    width: 30%;
+    width: 450px;
     height: auto;
     position: absolute;
-    right: 9%;
     z-index: -1;
     display: none;
+    margin-top: 0px;
+    right: 12%;
 }
 
 #aboutMe u {
