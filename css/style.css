@@ -21,7 +21,7 @@
     width: 38px;
   }
 
-#dropDown {
+#dropDown{
     font-family: 'Ubuntu', sans-serif;
     font-size: 21pt;
     letter-spacing: 8px;
@@ -29,8 +29,8 @@
     list-style-type: none;
     width: auto;
     position: absolute;
-    margin-right: 0px;
-    margin-top: 400px;
+    margin-right: 0%;
+    margin-top: 75vh;
     line-height: 3;
     text-align: end;
     display: none;
@@ -53,8 +53,6 @@
 #dropDownList3 {
     cursor: pointer;
 }
-
-
 
 .show {
     visibility: visible;
@@ -238,6 +236,16 @@
     }
 }
 
+/* @media only screen and (max-width: 700px) {
+    #aboutMe {
+        font-weight: bolder;
+        width:100px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-right: 9%;
+    }
+} */
+
+
 /* About me page */
 
 .info {
@@ -254,7 +262,6 @@
     font-size: 18pt;
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: normal;
-
 }
 
 #profession {
