@@ -251,7 +251,7 @@
 }
 
 #profession {
-    width: 450px;
+    width: 400px;
     height: auto;
     position: absolute;
     z-index: -1;
@@ -261,7 +261,7 @@
 }
 
 #experience {
-    width: 450px;
+    width: 400px;
     height: auto;
     position: absolute;
     z-index: -1;
@@ -271,7 +271,7 @@
 }
 
 #hobby {
-    width: 450px;
+    width: 400px;
     height: auto;
     position: absolute;
     z-index: -1;
