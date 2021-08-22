@@ -1,7 +1,7 @@
 /*Hamburger Menu*/
 $(".icons").on("click", function(){
   $("#dropDown").slideToggle();
-  $(".toggle").toggleClass('show hide');
+  // $(".toggle").toggleClass('show hide');
 });
 
 /*skill1*/
@@ -73,6 +73,14 @@ $("#skill4").on("mouseleave", function(){
 });
 
 /*drop down*/
+$("#dropDownList0").on("mouseenter", function(){
+  $("#dropDownList0").css("color","#ca5268")
+});
+
+$("#dropDownList0").on("mouseleave", function(){
+  $("#dropDownList0").css("color","black")
+});
+
 $("#dropDownList1").on("mouseenter", function(){
   $("#dropDownList1").css("color","#ca5268")
 });
@@ -121,4 +129,30 @@ $("#ex2").on("mouseenter", function(){
 
 $("#ex2").on("mouseleave", function(){
   $("#hobby").css("display","none")
+});
+
+/*scroll*/
+// $(document).ready(function () {
+//   $('#dropDownList1').click(function() {
+//   $('html, body').animate({
+//     scrollTop: $("section.work").offset().top
+//   }, 1000)
+// }), 
+// //   $('div.middle').click(function (){
+// //     $('html, body').animate({
+// //       scrollTop: $("div.bottom").offset().top
+// //     }, 1000)
+// //   }),
+
+// $('#dropDownList1').click(function() {
+//   $.scrollTo($('#project1'), 1000);
+// });
+
+$('.js-anchor-link').click(function(e){
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  if(target.length){
+    var scrollTo = target.offset().top;
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+  }
 });

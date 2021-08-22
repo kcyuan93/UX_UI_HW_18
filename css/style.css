@@ -30,10 +30,16 @@
     width: auto;
     position: absolute;
     margin-right: 0px;
-    margin-top: 380px;
+    margin-top: 32%;
     line-height: 3;
     text-align: end;
     display: none;
+    background: white;
+    width: 100%;
+}
+
+#dropDownList0 {
+    cursor: pointer;
 }
 
 #dropDownList1 {
@@ -228,6 +234,7 @@
         font-weight: bolder;
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
+        margin-right: 9%;
     }
 }
 
