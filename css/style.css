@@ -255,7 +255,7 @@
     margin-left: 9%;
     margin-right: 9%;
     margin-top: 110px;
-    margin-bottom: 100px;
+    margin-bottom: 25%;
 }
 
 #aboutMe {
@@ -265,7 +265,7 @@
 }
 
 #profession {
-    width: 400px;
+    width: 58vh;
     height: auto;
     position: absolute;
     z-index: -1;
@@ -275,7 +275,7 @@
 }
 
 #experience {
-    width: 400px;
+    width: 58vh;
     height: auto;
     position: absolute;
     z-index: -1;
@@ -285,7 +285,7 @@
 }
 
 #hobby {
-    width: 400px;
+    width: 58vh;
     height: auto;
     position: absolute;
     z-index: -1;
@@ -320,7 +320,7 @@
     font-size: 19pt;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 20%;
+    margin-left: 0%;
 }
 .tool ul {
     list-style: none;
@@ -328,5 +328,57 @@
     font-size: 16pt;
     color: dimgrey;
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 20%;
+    margin-left: 0%;
+}
+
+@media only screen and (max-width: 700px) {
+    .info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-top: 110px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #profession {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+        display: none;
+        margin-top: -150%;
+        right: 9%;
+    }
+    
+    #experience {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+        display: none;
+        margin-top: -100%;
+        right: 9%;
+    }
+    
+    #hobby {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+        display: none;
+        margin-top: -20%;
+        right: 9%;
+    }
+
+    .skill {
+        margin-top: -100%;
+    }
+
+    .tool {
+        margin-top: -60%;
+    }
 }
