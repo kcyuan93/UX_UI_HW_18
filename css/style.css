@@ -356,7 +356,7 @@
         z-index: -1;
         display: flex !important;
         justify-content: center;
-        margin-top: 20%;
+        margin-top: 30%;
         right: 9%;
     }
     
@@ -367,7 +367,7 @@
         z-index: -1;
         display: flex !important;
         justify-content: center;
-        margin-top: 120%;
+        margin-top: 140%;
         right: 9%;
     }
     
@@ -378,7 +378,7 @@
         z-index: -1;
         display: flex !important;
         justify-content: center;
-        margin-top: 220%;
+        margin-top: 250%;
         right: 9%;
     }
 }
