@@ -191,6 +191,19 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.img-wrapper {  
+    overflow:hidden; 
+    cursor: pointer;
+  }
+  
+  .inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.1);
+  }
+
 .footer {
     display: flex;
     flex-direction: row;
